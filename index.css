@@ -30,6 +30,36 @@ nav a {
     font-size: 20px;
 }
 
+h1{
+    margin-left: 20px;
+}
+
+article {
+    background-color: #f4f4f4; /* Couleur de fond de l'article */
+    border-radius: 8px; /* Bordure arrondie */
+    padding: 20px; /* Espacement à l'intérieur de l'article */
+    margin: 0 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+article h2 {
+    color: #333; /* Couleur du texte du titre */
+    margin-top: 0;
+}
+
+article p {
+    color: #666; /* Couleur du texte du paragraphe */
+}
+
+article img {
+    display: block; /* Affichage en bloc pour l'image */
+    border-radius: 4px; /* Bordure arrondie pour l'image */
+    width: 20%;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère pour l'image */
+}
+
 .blog{
     justify-content: space-between; /* Alignement des éléments sur les extrémités */
     width: 50vh;
