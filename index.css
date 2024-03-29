@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 0;  
 }
 
 header {
@@ -33,4 +33,51 @@ nav a {
 .blog{
     justify-content: space-between; /* Alignement des éléments sur les extrémités */
     width: 50vh;
+}
+
+
+footer {
+    background-color: rgba(213, 159, 42, 0.71);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute; /* Position absolue */
+    bottom: 0; /* Aligner le bas du footer au bas de la page */
+    width: 100%; /* Assurer que le footer occupe toute la largeur */
+}
+
+footer .logo {
+    margin-right: 10px;
+}
+
+.login-box {
+    width: 500px;
+    padding: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    position: absolute; /* Position absolue */
+    top: 50%; /* Aligner le haut de la login-box au milieu vertical */
+    left: 50%; /* Aligner la gauche de la login-box au milieu horizontal */
+    transform: translate(-50%, -50%); /* Décaler la boîte de moitié de sa taille pour la centrer parfaitement */
+}
+
+.login-box label {
+    font-weight: bold;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.login-box button {
+    width: 107%;
+    padding: 15px;
+    background-color:  rgba(213, 159, 42, 0.71);;
+    border: none;
+    color: #fff;
+    cursor: pointer;
 }
