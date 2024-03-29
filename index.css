@@ -1,9 +1,9 @@
 body{
-    margin: 0;  
+    margin: 0;
 }
 
 header {
-    background-color: rgba(213, 159, 42, 0.71); /* Couleur de fond du header */
+    background-color: rgb(223, 186, 103); /* Couleur de fond du header */
     padding: 10px; /* Espacement autour du contenu du header */
 }
 
@@ -67,17 +67,28 @@ article img {
 
 
 footer {
-    background-color: rgba(213, 159, 42, 0.71);
+    background-color: rgb(223, 186, 103);
     color: white;
     text-align: center;
-    padding: 20px;
-    position: absolute; /* Position absolue */
     bottom: 0; /* Aligner le bas du footer au bas de la page */
     width: 100%; /* Assurer que le footer occupe toute la largeur */
+    height: 17%;
 }
 
-footer .logo {
+footer nav a{
+    text-align: center;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+
+footer nav .logo {
     margin-right: 10px;
+}
+
+footer nav p{
+    margin: 0;
 }
 
 .login-box {
