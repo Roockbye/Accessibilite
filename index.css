@@ -51,6 +51,7 @@ article h2 {
 article p {
     color: #666; /* Couleur du texte du paragraphe */
     margin-right: 10px;
+    margin-bottom: 30px;
 }
 
 article img {
@@ -71,6 +72,10 @@ article img {
     display: block;
 }
 
+.article p {
+    margin: 0 20px;
+}
+
 table {
     margin-top: 20px;
     font-family: arial, sans-serif;
@@ -86,10 +91,6 @@ td, th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
-}
-
-main p {
-    margin: 0 20px;
 }
 
 footer {
