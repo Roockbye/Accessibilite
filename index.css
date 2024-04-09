@@ -83,14 +83,36 @@ table {
     width: 100%;
 }
 
+caption {
+    margin-top: 3px;
+    font-size: 12px;
+}
+
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #808080;
     text-align: left;
     padding: 8px;
 }
 
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+aside h2 {
+    margin-left: 20px;
+}
+
+aside article {
+    display: block;
+}
+
+aside article h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+aside article p {
+    margin: 0;
 }
 
 footer {
