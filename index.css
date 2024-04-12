@@ -6,29 +6,33 @@ body{
 header {
     background-color: rgb(223, 186, 103); /* Couleur de fond du header */
     padding: 10px; /* Espacement autour du contenu du header */
+    align-items: center; /* Alignement vertical des éléments */
+    display: flex; /* Utilisation de flexbox pour aligner les éléments */
+    justify-content: space-between; /* Alignement des éléments sur les extrémités */
+    width: 98.5%;
+    list-style-type: none; /* Suppression des puces de liste */
+    margin: 0; /* Suppression des marges */
+    /*padding: 0; !* Suppression des rembourrages *!*/
 }
 
 nav {
-    align-items: center; /* Alignement vertical des éléments */
 }
 
 nav ul {
-    display: flex; /* Utilisation de flexbox pour aligner les éléments */
-    justify-content: space-between; /* Alignement des éléments sur les extrémités */
-    align-items: center; /* Alignement vertical des éléments */
-    width: 100%;
-    list-style-type: none; /* Suppression des puces de liste */
-    margin: 0; /* Suppression des marges */
-    padding: 0; /* Suppression des rembourrages */
+
 }
 
-nav a {
+header a {
     display: flex; /* Utilisation de flexbox pour aligner les éléments */
     align-items: center; /* Alignement vertical des éléments */
     color: white; /* Couleur du texte des liens */
     text-decoration: none; /* Suppression du soulignement des liens */
     padding: 10px; /* Espacement autour du texte des liens */
     font-size: 20px;
+}
+
+li {
+    display: inline;
 }
 
 h1{
