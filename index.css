@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -153,7 +154,7 @@ footer nav p{
     font-weight: bold;
 }
 
-.login-box input[type="text"],
+.login-box input[type="email"],
 .login-box input[type="password"] {
     width: 100%;
     margin-bottom: 50px;
