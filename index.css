@@ -67,6 +67,11 @@ article img {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère pour l'image */
 }
 
+article time {
+    font-size: 15px;
+    color: #666666;
+}
+
 .blog{
     justify-content: space-between; /* Alignement des éléments sur les extrémités */
     width: 50vh;
