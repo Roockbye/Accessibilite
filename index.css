@@ -4,7 +4,7 @@ body{
 }
 
 header {
-    background-color: rgb(197, 164, 90); /* Couleur de fond du header */
+    background-color: coral; /* Couleur de fond du header */
     padding: 10px; /* Espacement autour du contenu du header */
     align-items: center; /* Alignement vertical des éléments */
     display: flex; /* Utilisation de flexbox pour aligner les éléments */
@@ -126,7 +126,7 @@ aside article p {
 }
 
 footer {
-    background-color: rgb(197, 164, 90);
+    background-color: coral;
     color: #ffffff;
     text-align: center;
     bottom: 0; /* Aligner le bas du footer au bas de la page */
@@ -173,7 +173,7 @@ footer nav p{
 .login-box button {
     width: 107%;
     padding: 15px;
-    background-color:  rgba(213, 159, 42, 0.71);
+    background-color:  coral;
     border: none;
     color: #fff;
     cursor: pointer;
